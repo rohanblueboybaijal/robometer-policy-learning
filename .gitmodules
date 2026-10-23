@@ -6,4 +6,4 @@
 	url = git@github.com:jesbu1/dsrl_openpi.git
 [submodule "robometer"]
 	path = robometer
-	url = git@github.com:robometer/robometer.git
+	url = git@github.com:rohanblueboybaijal/robometer.git

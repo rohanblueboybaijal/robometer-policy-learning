@@ -1,5 +1,7 @@
 # Robometer Policy Learning
 
+For a local-only LIBERO SAC comparison of frozen Robometer rewards and simulator rewards, see [the reward audit harness](experiments/reward_audit/README.md). It includes the paper's task-28 sanity protocol, a held-out task comparison, separate reward/policy GPUs, and an occupied-GPU launch guard.
+
 A flexible reinforcement \ imitation learning framework supporting multiple algorithms (SAC, IQL, BC), reward models (Robometer, RoboReward), and distributed training. We will soon include detailed guides for DSRL (Diffusion-steering RL) with Pi0/0.5 on LIBERO and Real World tasks.
 
 >[!WARNING]
@@ -250,4 +252,3 @@ See the [real robot guide](docs/REAL_ROBOT_README.md) for WidowX instructions, e
 ├── scripts/                      # Training, evaluation, and server entrypoints
 ├── tests/                        # Test suite
 ```
-
